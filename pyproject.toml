@@ -28,3 +28,10 @@ skip_glob = 'eva_clip/*.py'
 line-length = 119
 skip-string-normalization = 1
 exclude = 'eva_clip'
+
+[project]
+name = "pulid"
+version = "0.1.0"
+
+[tool.setuptools.packages.find]
+include = ["pulid", "eva_clip"]
